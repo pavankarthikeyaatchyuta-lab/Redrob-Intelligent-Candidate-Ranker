@@ -1,0 +1,6 @@
+ranker,avg_retrieval,avg_ranking,avg_behavioral,avg_career,avg_response_rate,avg_notice_days
+Keyword matching,0.419,0.227,0.600,0.588,0.562,68.250
+BM25,0.546,0.401,0.776,0.827,0.658,56.400
+Skills only,0.314,0.107,0.489,0.439,0.469,80.100
+Semantic only,0.643,0.407,0.775,0.839,0.648,57.450
+Hybrid system,0.609,0.400,0.791,0.851,0.675,59.550

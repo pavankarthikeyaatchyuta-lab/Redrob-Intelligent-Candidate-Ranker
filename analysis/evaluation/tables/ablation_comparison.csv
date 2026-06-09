@@ -1,0 +1,6 @@
+mode,avg_retrieval,avg_ranking,avg_behavioral,avg_career,avg_response_rate,avg_notice_days,hybrid_overlap
+full,0.609,0.400,0.791,0.851,0.675,59.550,100
+no_behavior,0.614,0.395,0.767,0.853,0.637,59.550,90
+no_career,0.632,0.402,0.777,0.843,0.646,58.200,91
+no_honeypot,0.609,0.400,0.791,0.851,0.675,59.550,100
+no_semantic,0.496,0.371,0.819,0.860,0.725,60.600,69

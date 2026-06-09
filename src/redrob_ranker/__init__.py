@@ -1,0 +1,2 @@
+"""Redrob hackathon ranking package."""
+
