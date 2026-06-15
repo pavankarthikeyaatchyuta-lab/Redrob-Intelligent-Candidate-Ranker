@@ -18,18 +18,19 @@ The pipeline therefore weights `career evidence` more heavily than raw skill key
 
 ```text
 .
+|-- candidates.jsonl
+|-- candidate_schema.json
 |-- analysis/
 |   `-- dataset_profile.md
+|-- job_description.docx
 |-- scripts/
 |   `-- profile_dataset.py
+|-- redrob_signals_doc.docx
 |-- src/
 |   `-- redrob_ranker/
 |       |-- __init__.py
 |       |-- config.py
 |       `-- pipeline.py
-|-- candidate_schema.json
-|-- candidates.jsonl
-|-- job_description.docx
 |-- rank.py
 |-- ranked_candidates.csv
 |-- README.md
@@ -37,6 +38,20 @@ The pipeline therefore weights `career evidence` more heavily than raw skill key
 |-- submission_spec.docx
 `-- validate_submission.py
 ```
+
+## Challenge Data Files
+
+The challenge inputs are stored in the repository root for local execution:
+
+- [candidates.jsonl](./candidates.jsonl)
+- [job_description.docx](./job_description.docx)
+- [candidate_schema.json](./candidate_schema.json)
+- [redrob_signals_doc.docx](./redrob_signals_doc.docx)
+- [submission_spec.docx](./submission_spec.docx)
+
+`candidates.jsonl` is large, so this repository uses Git LFS for that file.
+Make sure Git LFS is installed before cloning if you want the dataset file to
+download automatically.
 
 ## Ranking Pipeline
 
