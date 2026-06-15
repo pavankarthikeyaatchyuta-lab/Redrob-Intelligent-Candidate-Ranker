@@ -41,7 +41,7 @@ The pipeline therefore weights `career evidence` more heavily than raw skill key
 
 ## Challenge Data Files
 
-The challenge inputs are stored in the repository root for local execution:
+The challenge inputs are expected in the repository root for local execution:
 
 - [candidates.jsonl](./candidates.jsonl)
 - [job_description.docx](./job_description.docx)
@@ -49,9 +49,9 @@ The challenge inputs are stored in the repository root for local execution:
 - [redrob_signals_doc.docx](./redrob_signals_doc.docx)
 - [submission_spec.docx](./submission_spec.docx)
 
-`candidates.jsonl` is large, so this repository uses Git LFS for that file.
-Make sure Git LFS is installed before cloning if you want the dataset file to
-download automatically.
+`candidates.jsonl` is large and is kept as a local workspace file for
+execution. If you are working from a fresh clone, place the challenge dataset
+files in the repo root before running the ranker.
 
 ## Ranking Pipeline
 
