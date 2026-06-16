@@ -1,2 +1,2 @@
-# No external runtime dependencies are required.
-# Python 3.11+ is sufficient for the ranking pipeline.
+# No third-party runtime dependencies are required.
+# The ranker runs on the Python 3.11+ standard library only.

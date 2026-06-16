@@ -187,5 +187,6 @@ Weights were inferred from:
 ## Submission Readiness
 
 - `ranked_candidates.csv` is produced end-to-end by code
+- validation passed: `100 candidates ranked`, `0 duplicate candidate IDs`, required columns present
 - output format is validator-compatible
 - no external APIs or GPU dependencies are used
