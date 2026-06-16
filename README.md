@@ -21,7 +21,25 @@ The pipeline therefore weights `career evidence` more heavily than raw skill key
 |-- candidates.jsonl
 |-- candidate_schema.json
 |-- analysis/
-|   `-- dataset_profile.md
+|   |-- dataset_profile.md
+|   `-- evaluation/
+|       |-- evaluation_report.md
+|       |-- cases/
+|       |   |-- case_1.md
+|       |   |-- case_2.md
+|       |   |-- case_3.md
+|       |   |-- case_4.md
+|       |   `-- case_5.md
+|       |-- figures/
+|       |   |-- baseline_behavior_career.svg
+|       |   |-- baseline_relevance.svg
+|       |   |-- behavioral_score_distribution.svg
+|       |   |-- career_score_distribution.svg
+|       |   |-- hybrid_score_distribution.svg
+|       |   `-- semantic_score_distribution.svg
+|       `-- tables/
+|           |-- ablation_comparison.csv
+|           `-- baseline_comparison.csv
 |-- job_description.docx
 |-- scripts/
 |   `-- profile_dataset.py
