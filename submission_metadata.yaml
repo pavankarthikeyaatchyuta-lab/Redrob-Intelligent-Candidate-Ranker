@@ -1,0 +1,14 @@
+team_name: "Limit Breakers"
+team_size: 1
+
+members:
+  - name: "Atchyuta Pavan Karthikeya"
+    email: "pavankarthikeyaatchyuta@gmail.com"
+    institution: "Ramachandra College of Engineering, Eluru"
+    role: "Solo Participant"
+
+submission:
+  track: "Data & AI Challenge"
+  github_url: "https://github.com/pavankarthikeyaatchyuta-lab/Redrob-Intelligent-Candidate-Ranker"
+  output_file: "ranked_candidates.csv"
+  explainability_report: "explainability_report.md"
